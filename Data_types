@@ -1,0 +1,33 @@
+void main() {
+  // Example of int data type
+  int age = 24;
+  print('Age: $age');
+
+  // Example of double data type
+  double height = 5.8;
+  print('Height: $height feet');
+
+  // Example of String data type
+  String name = 'Mike';
+  print('Name: $name');
+
+  // Example of List data type (List of integers)
+  List<int> numbers = [1, 2, 3, 4, 5];
+  print('Numbers: $numbers');
+
+  // Example of accessing elements in a List
+  print('First number: ${numbers[0]}');
+  print('Second number: ${numbers[1]}');
+
+  // Example of Map data type (Mapping names to ages)
+  Map<String, int> age map = {
+    'Mike': 24,
+    'Sandra': 30,
+    'Warren': 21,
+  };
+  print('Age Map: $ageMap');
+
+  // Example of accessing elements in a Map
+  print('Mike\'s age: ${ageMap['Mike']}');
+  print('Sandra\'s age: ${ageMap['Sandra']}');
+}
